@@ -1,8 +1,0 @@
-﻿  pch.cpp
-  ConsoleApplication1.cpp
-  DnnTest.cpp
-  Generating Code...
-DnnTest.obj : error LNK2019: unresolved external symbol "public: __thiscall cv::dnn::dnn4_v20180917::Net::~Net(void)" (??1Net@dnn4_v20180917@dnn@cv@@QAE@XZ) referenced in function "void __cdecl test(void)" (?test@@YAXXZ)
-DnnTest.obj : error LNK2019: unresolved external symbol "class cv::dnn::dnn4_v20180917::Net __cdecl cv::dnn::dnn4_v20180917::readNetFromTensorflow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?readNetFromTensorflow@dnn4_v20180917@dnn@cv@@YA?AVNet@123@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) referenced in function "void __cdecl test(void)" (?test@@YAXXZ)
-C:\opencv\build\x64\vc14\lib\opencv_world400d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
-C:\Users\User\Desktop\ConsoleApplication1\Debug\ConsoleApplication1.exe : fatal error LNK1120: 2 unresolved externals
